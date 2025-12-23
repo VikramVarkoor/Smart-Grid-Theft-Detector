@@ -26,7 +26,7 @@ def update(i):
                 plt.cla()
                 plt.plot(powers, label='Load (Watts)', color='#0047AB', linewidth=2)
 
-                # Theft Detection Styling
+                
                 if alert == 1:
                     plt.title("⚠️ THEFT DETECTED: UNUSUAL LOAD SPIKE! ⚠️", color='red', weight='bold')
                     plt.gca().set_facecolor('#FFE5E5')  # Light red alert
